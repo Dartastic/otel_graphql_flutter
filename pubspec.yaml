@@ -1,0 +1,32 @@
+name: otel_graphql_flutter
+description: Flutter overlay for `otel_graphql`. Re-exports the
+  core OTel `Link` + semantics and pulls in `graphql_flutter`, so a
+  Flutter app adds one dependency to get OTel coverage of every
+  GraphQL operation.
+version: 0.1.0-beta.1-wip
+repository: https://github.com/dartastic/otel_graphql_flutter
+homepage: https://dartastic.io
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  otel_graphql: ^0.1.0-wip
+  dartastic_opentelemetry: ^1.1.0-beta.4
+  dartastic_opentelemetry_api: ^1.0.0-beta.6
+  flutter:
+    sdk: flutter
+  graphql_flutter: ^5.0.0
+
+dev_dependencies:
+  pubspec_parse: ^1.5.0
+  pub_semver: ^2.0.0
+  dart_flutter_team_lints: ^3.5.2
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  # Use the local sibling while we iterate on both packages.
+  otel_graphql:
+    path: ../otel_graphql
