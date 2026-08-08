@@ -1,8 +1,8 @@
 # otel_graphql_flutter
 
-Flutter overlay for [`otel_graphql`](../otel_graphql/README.md).
+Flutter overlay for [`otel_graphql`](https://pub.dev/packages/otel_graphql).
 
-Re-exports the core `OTelGraphqlLink` + `GraphqlSemantics` and
+Re-exports the core `OTelGraphqlLink` and
 pulls in `graphql_flutter` so Flutter apps add **one** dependency
 instead of managing `graphql` + `graphql_flutter` +
 `otel_graphql` separately.
@@ -25,7 +25,7 @@ final client = GraphQLClient(
 - **Flutter app using `graphql_flutter`** → use this package. One
   dependency for the link + `graphql_flutter`.
 - **Pure-Dart `graphql` app** (a server, CLI, isolate) → use
-  [`otel_graphql`](../otel_graphql) directly.
+  [`otel_graphql`](https://pub.dev/packages/otel_graphql) directly.
   No Flutter dependency.
 
 The runtime behavior is identical — same `OTelGraphqlLink` class

@@ -3,7 +3,7 @@
 
 /// Flutter overlay for `otel_graphql`.
 ///
-/// Re-exports the core `OTelGraphqlLink` + `GraphqlSemantics`. A
+/// Re-exports the core `OTelGraphqlLink`. A
 /// Flutter app that depends on `graphql_flutter` can add this
 /// single package instead of pulling in both `otel_graphql`
 /// and managing the `graphql_flutter` / `graphql` dependency
