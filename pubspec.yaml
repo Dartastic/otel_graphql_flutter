@@ -21,7 +21,7 @@ dependencies:
   # resolve on pub.dev). The path override below supplies the
   # in-repo sibling while both packages iterate; bump this floor
   # when the core publishes its next version.
-  otel_graphql: ^0.1.0-beta.1
+  otel_graphql: ^0.2.0
 
 dev_dependencies:
   dart_flutter_team_lints: ^3.5.2
