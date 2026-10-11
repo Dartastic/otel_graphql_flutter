@@ -3,7 +3,7 @@ description: >-
   Flutter overlay for `otel_graphql`. Re-exports the core OpenTelemetry
   gql Link and pulls in `graphql_flutter`, so one dependency covers every
   GraphQL operation.
-version: 0.2.0-wip
+version: 0.2.0
 repository: https://github.com/dartastic/otel_graphql_flutter
 homepage: https://dartastic.io
 
